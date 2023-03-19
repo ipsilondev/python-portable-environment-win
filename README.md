@@ -9,7 +9,7 @@ This repo contains a portable python evironment of python 3.9.10 that you can co
 
 *YES* that is correct. You should not use this in production, but in case you need it, here you have a working version
 
-#How to use it
+# How to use it
 
 1) Clone the repo
 2) Run `setup-path.bat` to update the fixed paths in the env.
@@ -21,7 +21,7 @@ This repo contains a portable python evironment of python 3.9.10 that you can co
 
 Some packages may use cache directory in the user space to download / generate extra data. This will break the isolation and portability of the enviroments. You may need to edit that python code to a path inside the enviroment to keep the code portable.
 
-#How this has been done.
+# How this has been done.
 
 Pretty easy. Using WinPython an env has been created and then, all the WinPython files for this version has been copied to the enviorment to keep it portability.
 
